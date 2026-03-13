@@ -1,0 +1,26 @@
+name: Mark stale issues and pull requests
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Täglich um Mitternacht
+  workflow_dispatch: # Ermöglicht manuelles Auslösen des Workflows
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/stale@v6
+        with:
+          days-before-stale: 30
+          days-before-close: 7
+
+          stale-issue-message: 'Diese Issue/PR wird als veraltet markiert, da seit 30 Tagen keine Aktivität stattgefunden hat.'
+          stale-pr-message: 'Diese Issue/PR wird als veraltet markiert, da seit 30 Tagen keine Aktivität stattgefunden hat.'
+          close-issue-message: 'Diese Issue/PR wird geschlossen, da seit 7 Tagen keine Aktivität stattgefunden hat.'
+          close-pr-message: 'Diese Issue/PR wird geschlossen, da seit 7 Tagen keine Aktivität stattgefunden hat.'
+       
+          exempt-drafts: true
+          exempt-issues: false
+
+      
