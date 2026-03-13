@@ -10,7 +10,7 @@ und du betrittst nun den neu geordneten, klar strukturierten Softwaretempel.
 Dieses Repository enthält alle relevanten Daten der Black Market Software Gmbh.
 Die Inhalte wurden vollständig restrukturiert, bereinigt und professionell dokumentiert.
 
-![Black Market Software](docs/docs\Black-Market-Software-Gmbh.png)
+![Black Market Software](docs\Black-Market-Software-Gmbh.png)
 
 ## Weiterführende Dokumentation
 [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
