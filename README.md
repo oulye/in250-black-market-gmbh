@@ -14,6 +14,7 @@ Die Inhalte wurden vollständig restrukturiert, bereinigt und professionell doku
 
 ## Weiterführende Dokumentation
 [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
+[BranchStrategie](docs/02_branch_strategie.md)
 
 ## Tasks
 ### Abgeschlossen:
